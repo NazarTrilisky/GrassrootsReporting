@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="15dp"
+    android:layout_marginTop="65dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginBottom="15dp"
+    android:columnCount="3"
+    android:rowCount="3"
+    android:layout_gravity="fill_horizontal"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <ImageButton
+            android:id="@+id/roadsDriversImageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:background="@drawable/roadsintersectionsdrivers"
+            android:onClick="roads_drivers_click"
+            android:scaleType="fitXY" />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/roads_drivers" />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <ImageButton
+            android:id="@+id/waterGasImageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:background="@drawable/water_gas"
+            android:onClick="water_gas_click"
+            android:scaleType="fitXY" />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/water_gas" />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <ImageButton
+            android:id="@+id/wasteEnvironmentImageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:background="@drawable/waste_environment"
+            android:onClick="waste_environment_click"
+            android:scaleType="fitXY" />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/waste_environment" />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <ImageButton
+            android:id="@+id/criminalActivityImageButton"
+            android:layout_width="85dp"
+            android:layout_height="84dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/criminal_activity"
+            android:onClick="criminal_activity_click"
+            android:scaleType="fitXY" />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/criminal_activity" />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <ImageButton
+            android:id="@+id/electricityImageButton"
+            android:layout_width="85dp"
+            android:layout_height="84dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/electricity"
+            android:onClick="electricity_click"
+            android:scaleType="fitXY" />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/electricity" />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <ImageButton
+            android:id="@+id/emergencyImageButton"
+            android:layout_width="85dp"
+            android:layout_height="84dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/emergency"
+            android:onClick="emergency_services_click"
+            android:scaleType="fitXY" />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/emergency_services" />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <ImageButton
+            android:id="@+id/publicTransportationImageButton"
+            android:layout_width="85dp"
+            android:layout_height="84dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/public_transportation"
+            android:onClick="public_transportation_click"
+            android:scaleType="fitXY" />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/public_transportation" />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <ImageButton
+            android:id="@+id/publicEducationImageButton"
+            android:layout_width="85dp"
+            android:layout_height="84dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/public_education"
+            android:onClick="public_education_click"
+            android:scaleType="fitXY" />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/public_education" />
+    </LinearLayout>
+</GridLayout>

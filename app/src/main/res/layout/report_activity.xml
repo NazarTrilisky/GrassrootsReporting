@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/reportActivityScrollView"
+    android:fillViewport="true">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".ReportActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/projTitleTextViewId"
+            android:text="Report an Issue"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:layout_margin="20dp"
+            android:textStyle="bold"/>
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="2dp"
+            android:layout_height="2dp"
+            android:layout_gravity="center" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Problem summary: " />
+            <EditText
+                android:id="@+id/issueSummaryEditTextId"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Describe location: " />
+            <EditText
+                android:id="@+id/locationEditTextId"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            <Button
+                android:id="@+id/takePhotoButtonId"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_margin="25dp"
+                android:layout_centerHorizontal="true"
+                android:text="Take a Photo" />
+            <Button
+                android:id="@+id/clearPhotosButtonId"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_margin="25dp"
+                android:layout_centerHorizontal="true"
+                android:text="Clear Photos" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/photosLinearLayoutId"
+            android:orientation="horizontal" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GPS: " />
+            <TextView
+                android:id="@+id/gpsCoordinatesTextViewId"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time Created: " />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/requestCreatedTimeTextViewId"
+                android:text="Created Time" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <Button
+                android:id="@+id/submitReportButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="40dp"
+                android:text="Submit" />
+            <Button
+                android:id="@+id/cancelReportButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="40dp"
+                android:text="Cancel" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+
