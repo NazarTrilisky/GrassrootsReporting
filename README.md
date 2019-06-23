@@ -4,7 +4,8 @@
 1. Update "server_url_and_port" in res.values.strings.xml to point to your server.
    Run "python server.py" on your server with the right port.
 2. Either install GrR on an Android device or start a Virtual Device with Android Studio.
-3. Reports you submit from the GrR app will go into a "Posted_Reports" folder in the directory in which server.py is running.
+3. Create a "Posted_Reports" folder in the directory in which server.py is running.
+   Reports you submit from GrR will go into this folder.
 
   Environment I used for testing:
 * Windows 10, 64-bit OS
