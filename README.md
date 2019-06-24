@@ -5,6 +5,7 @@
 1. Update "server_url_and_port" in res.values.strings.xml to point to your server.
    Run "python server.py" on your server with the right port.
 1. Either install GrR on an Android device or start a Virtual Device with Android Studio.
+   Note: if opening GrassrootsReporting.zip in Android Stuido, use the 2nd nested "GrassrootsReporting" folder.
 1. Create a "Posted_Reports" folder in the directory in which server.py is running.
    Reports you submit from GrR will go into this folder.
 
