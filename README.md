@@ -25,3 +25,5 @@
 * Windows 10, 64-bit OS
 * Python 3.6.3
 * Galaxy Nexus API 29 Virtual Device: Android 9.+, x86
+
+  Video with the project overview and demo: https://youtu.be/ePeyH-s2azQ.
